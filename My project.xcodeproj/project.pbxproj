@@ -11,6 +11,8 @@
 		9760D3B62B0630C3001C2821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9760D3B52B0630C3001C2821 /* ContentView.swift */; };
 		9760D3B82B0630C5001C2821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9760D3B72B0630C5001C2821 /* Assets.xcassets */; };
 		9760D3BB2B0630C5001C2821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9760D3BA2B0630C5001C2821 /* Preview Assets.xcassets */; };
+		97EB94E52B2327C800594738 /* MedicineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB94E42B2327C800594738 /* MedicineListView.swift */; };
+		97EB94E72B23281300594738 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB94E62B23281300594738 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9760D3B52B0630C3001C2821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9760D3B72B0630C5001C2821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9760D3BA2B0630C5001C2821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97EB94E42B2327C800594738 /* MedicineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicineListView.swift; sourceTree = "<group>"; };
+		97EB94E62B23281300594738 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				9760D3B32B0630C3001C2821 /* My_projectApp.swift */,
 				9760D3B52B0630C3001C2821 /* ContentView.swift */,
+				97EB94E62B23281300594738 /* NotificationManager.swift */,
+				97EB94E42B2327C800594738 /* MedicineListView.swift */,
 				9760D3B72B0630C5001C2821 /* Assets.xcassets */,
 				9760D3B92B0630C5001C2821 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97EB94E52B2327C800594738 /* MedicineListView.swift in Sources */,
 				9760D3B62B0630C3001C2821 /* ContentView.swift in Sources */,
+				97EB94E72B23281300594738 /* NotificationManager.swift in Sources */,
 				9760D3B42B0630C3001C2821 /* My_projectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +280,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"My project/Preview Content\"";
+				DEVELOPMENT_TEAM = CJ7Y8FAK36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"My project/Preview Content\"";
+				DEVELOPMENT_TEAM = CJ7Y8FAK36;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
