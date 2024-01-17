@@ -52,18 +52,22 @@ struct MedicineListView: View {
             case 2:
                 notificationManager.scheduleNotification(title: "Take \(medicine.name)",
                                                          body: "It's time for your medication.",
-                                                         hour: [8, 13])
+                                                         hour: [8, 16])
             case 3:
                 notificationManager.scheduleNotification(title: "Take \(medicine.name)",
                                                          body: "It's time for your medication.(3)",
-                                                         hour: [8, 13, 20])
+                                                         hour: [8, 14, 20])
             default:
                 break
             }
         }
     }
     private func deleteMedicine(at offsets: IndexSet) {
-            medicines.remove(atOffsets: offsets)
+            //medicines.remove(atOffsets: offsets)
+            let defaults = UserDefaults.standard
+            let key = "savedMedicines"
+            defaults.removeObject(forKey: key)
+            defaults.synchronize()
             scheduleNotifications(for: medicines)
             saveMedicines()
         }
